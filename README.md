@@ -274,11 +274,13 @@ Given more time, I would prioritize work in this order:
 
 ## Submission
 
-- **Source code:** GitHub repository link — *add after publishing*
-- **Live application:** Vercel deployment link — *add after deployment (optional)*
+- 
+- **Source code:** https://github.com/shantanu-c25/trialscope-clinical-review-workspace
+- **Live application:** https://trialscope-clinical-review-workspace.vercel.app
+
 
 To evaluate locally, clone the repository, run `npm install`, then `npm run dev`. No external service or credentials are required.
 
 ---
 
-*Built as a focused frontend engineering exercise: a clear review workflow, explicit data boundaries, predictable state changes and accessibility considered as part of interaction design rather than a final visual pass.*
+*Built as a focused frontend UI engineering exercise: a clear review workflow, explicit data boundaries, predictable state changes and accessibility considered as part of interaction design rather than a final visual pass.*
