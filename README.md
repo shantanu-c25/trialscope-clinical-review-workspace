@@ -274,7 +274,6 @@ Given more time, I would prioritize work in this order:
 
 ## Submission
 
-- 
 - **Source code:** https://github.com/shantanu-c25/trialscope-clinical-review-workspace
 - **Live application:** https://trialscope-clinical-review-workspace.vercel.app
 
