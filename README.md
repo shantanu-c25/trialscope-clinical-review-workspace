@@ -7,6 +7,47 @@ TrialScope is a small, self-contained workspace for reviewing clinical trial rec
 
 This is a frontend demonstration, not a clinical system. All studies and sponsors are fictional. It does not contain patient information, connect to a clinical trial registry, or make clinical recommendations.
 
+
+## Application Preview
+
+![TrialScope — Clinical Trial Review Workspace](docs/screenshots/dashboard.png)
+
+The dashboard provides an overview of active trials, studies requiring review, at-risk studies, and completed reviews. Reviewers can search, filter, and sort trial records before opening a study to inspect its details and manage review activity.
+
+
+
+## MVP Scope
+
+I approached TrialScope as a focused frontend MVP rather than attempting to recreate a complete clinical trial management platform.
+
+The primary workflow is straightforward: identify studies requiring attention, review their details, record observations, and mark reviews complete.
+
+### Included in the MVP
+
+- Dashboard metrics for active trials, pending reviews, at-risk studies, and completed reviews.
+- Fifteen fictional clinical trial records with consistent study metadata.
+- Search, filtering, sorting, and pagination.
+- Study details with Overview, Sites, Documents, and Activity sections.
+- Review notes and review-completion actions.
+- Local persistence through browser localStorage.
+- Loading, empty, error, and retry states.
+- Responsive layouts for desktop and smaller screens.
+- Keyboard interactions, focus management, and accessible UI patterns.
+- Automated tests covering trial selectors and repository behavior.
+
+### Outside the MVP
+
+Authentication, role-based access control, backend APIs, real-time collaboration, external clinical trial integrations, and production-grade audit logging are deliberately excluded.
+
+These would be necessary for a production clinical research platform, but they would not materially improve the core frontend workflow demonstrated in this exercise.
+
+### Validation
+
+The current implementation has passed 27 automated tests across two test files, ESLint checks, TypeScript compilation, and a production build.
+
+Key keyboard interactions were also manually verified. Full WCAG 2.1 AA conformance has not been independently audited.
+
+
 ## The problem I chose to solve
 
 A reviewer working across multiple studies needs to answer a few questions quickly: Which studies need attention? Which reviews are overdue or high priority? What is the context for a particular study? Has someone already reviewed it, and what did they record?
